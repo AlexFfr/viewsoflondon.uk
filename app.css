@@ -1,0 +1,162 @@
+body {
+    background: #ffffff;
+    color: #023047cc;
+    font-weight: 100;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.carousel {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header_image {
+    object-fit: cover;
+    height: 65vh;
+}
+
+.carousel-caption {
+    left: 5%;
+    bottom: 8px;
+}
+
+.header_caption {
+    font-size: clamp(1.25rem, 3vw, 2.5rem);
+    font-weight: 100;
+    text-align: left;
+    color: #ffffff9a;
+}
+
+.cards_title {
+    padding-top: 6rem;
+    font-size: clamp(3rem, 5vw, 5rem);
+    font-weight: 100;
+    text-align: center;
+}
+
+.map_title {
+    padding-top: 40px;
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-weight: 100;
+}
+
+.title_description {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+}
+
+.title_description_sm {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+#mainNavbar {
+    height: 10rem;
+    padding: 0 10% 0;
+}
+
+#mainNavbar .navbar-brand {
+    color: #023047cc;
+    font-size: clamp(2.4rem, 6vw, 6rem);
+    transition: color 250ms;
+    white-space: normal;
+}
+
+#mainNavbar .navbar-brand:hover {
+    color: #02304766;
+    transition: color 250ms;
+}
+
+#mainNavbar .nav-link {
+    color: #023047cc;
+    font-size: clamp(1.5rem, 3.2vw, 2rem);
+    transition: color 250ms;
+    white-space: nowrap;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #02304766;
+    transition: color 250ms;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.dropdown-menu {
+    display: none;
+    margin-top: 0;
+    background: #ffffff;
+    border: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.location_container {
+    padding-top: 80px;
+}
+
+.card-title {
+    font-size: clamp(1.25rem, 2vw, 2rem);
+    font-weight: 400;
+}
+
+.card-text {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 100;
+}
+
+a.card {
+    color: #023047cc;
+    text-decoration: none;
+    transition: background 250ms;
+}
+
+a.card:hover {
+    background: #0230470d;
+    transition: background 250ms;
+}
+
+.card-img-top {
+    height: clamp(160px, 12vw, 240px);
+    min-width: 200px;
+    object-fit: cover;
+}
+
+.info-img-title {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #0230470d;
+    margin-top: 40px;
+    padding: 10px 0 16px;
+    font-size: 1rem;
+    min-width: 100%;
+    text-align: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(80px);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
